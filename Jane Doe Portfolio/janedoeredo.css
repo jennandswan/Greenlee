@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 990px;
+    width: 1000px;
+    background-color: #6f5964;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #1f0f13, #6f5964, #1f0f13);
+}
+
+.header {
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+    padding: 5px;
+    vertical-align: top;
+
+}
+
+.header h1 {
+    font-family: "comic sans ms", sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header h2 {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.janepic {
+    width: 430px;
+    height: 285px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.janepic img {
+    width: 400px;
+    height: auto;
+    border-style: solid;
+    border-width: 6px;
+    border-color: lightgray;
+    margin-left: 25px;
+}
+
+.about {
+    width: 460px;
+    height: 275px;
+    vertical-align: top;
+    display: inline-block;
+    background-image: linear-gradient(to right, white, #dbccda);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+
+}
+
+.about h3 {
+    width: 450px;
+    padding-left: 10px;
+    color: white;
+    background-image: linear-gradient(#b0afb4, #888693, #b0afb4)
+}
+
+.about p {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.content div{
+    margin-left: 35px;
+    height: 520px;
+}
+
+.lamode {
+    width: 285px;
+    min-height: 400px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    background-image: linear-gradient(to right, #fdfcfd, #dbccda)
+}
+
+.familycontacts {
+    width: 285px;
+    min-height: 400px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    background-image: linear-gradient(to right, #fdfcfd, #dbccda)
+}
+
+.fiveEleven {
+    width: 285px;
+    min-height: 200px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    background-image: linear-gradient(to right, #fdfcfd, #dbccda)
+}
+
+.lamode img {
+    width: 285px;
+}
+
+.familycontacts img {
+    width: 285px;
+}
+
+.fiveEleven img {
+    width: 285px;
+}
+
+.lamode h3 {
+    padding-left: 5px;
+    color: white;
+    background-image: linear-gradient(#b0afb4, #888693, #b0afb4)
+}
+
+.familycontacts h3 {
+    padding-left: 5px;
+    color: white;
+    background-image: linear-gradient(#b0afb4, #888693, #b0afb4)
+}
+
+.fiveEleven h3 {
+    padding-left: 5px;
+    color: white;
+    background-image: linear-gradient(#b0afb4, #888693, #b0afb4)
+    
+}
+
+.lamode h4 {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 70px;
+}
+
+.lamode p {
+    margin-bottom: 57px;
+    margin-left: 5px;
+}
+
+.familycontacts h4 {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+.familycontacts p {
+    margin-bottom: 57px;
+    margin-left: 5px;
+}
+
+.fiveEleven h4 {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 8px;
+    margin-left: 90px;
+    width: 90px;
+}
+
+.fiveEleven p {
+    margin-left: 5px;
+}
+.logos{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.lamode .logos {
+    width: 40px;
+}
+
+.familycontacts .logos {
+    width: 40px;
+}
+
+.fiveEleven .logos {
+    width: 40px;
+
+}
+
+.footer {
+    margin-left: 400px;
+    margin-top: 20px;
+    
+}
+
+.secondfooter {
+    margin-left: 350px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+
+}
+
+.tinylogos {
+    width: 15px;
+
+}
+.footerback{
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    padding: 5px;
+}
