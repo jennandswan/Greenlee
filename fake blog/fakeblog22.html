@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Beer Presentation</title>
+    <link rel="stylesheet" type="text/css" href="fakeblog2.css">
+</head>
+<script>
+    $(document).ready(function () {
+        $("#textarea").keyup(function (event) {
+            if (event.originalEvent.keyCode === 13) {
+                console.log("enterkeypressed");
+                let text = $("#textarea").val();
+                console.log(text);
+                text = text + "\nI love beer!";
+                $("#textarea").val(text);
+            }
+        })
+        $("#stein").click(function () {
+            $("#beermug").fadeOut("slow").delay(1500).fadeIn("slow")
+
+        });
+        $(".center").click(function () {
+            $(".center").slideUp("slow", function () {
+
+            });
+        });
+        $(".center").click(function () {
+            $(".center").slideDown("slower", function () {
+
+            });
+        });
+    });
+</script>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1><strong>Beer</strong></h1>
+            <p class="paragraph">Beer is one of the oldest drinks humans have produced,dating back to at least the 5th
+                millenium BC in
+                Iran. Beer became ingrained in the culture of civilizations with no significant viticulture. Today the
+                brewing
+                industry is a global business. More than 35 billion gallons are produced and sold all over the world.
+            </p>
+
+            <img class="center" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Alulu_Beer_Receipt.jpg"
+                alt="An ancient square stone with a receipe for beer carved on one side.">
+
+            <div class="subcontent">
+                <h2>Beer History</h2>
+                <p>Ancient History Historians speculate that prehistoric nomads may have made beer from grain &amp;
+                    water before
+                    learning to make bread. Beer became ingrained in the culture of civilizations with no significant
+                    viticulture.
+                    Noah's provisions included beer on
+                    the Ark. 4300 BC, Babylonian clay tablets detail recipes for beer. Beer was a vital part of
+                    civilization and the
+                    Babylonian, Assyrian, Egyptian, Hebrew, Chinese, and Inca cultures. Babylonians produced beer in
+                    large
+                    quantities with around 20 varieties.
+                    Beer at this time was so valued that it was sometimes used to pay workers as part of their daily
+                    wages. Early
+                    cultures often drank beer through straws to avoid grain hulls left in the beverage. Egyptians brewed
+                    beer
+                    commercially for use by royalty
+                    served in gold goblets, medical purposes, and as a necessity to be included in burial provisions for
+                    the journey
+                    to the hereafter.</p>
+            </div>
+            <div class="list">
+                <ol>
+                    <h3>Different grains were used in different cultures:</h3>
+                    <li> Africa used millet, maize and cassava.</li>
+                    <li> North America used persimmon
+                        although agave was used in Mexico.</li>
+                    <li> South America used corn although sweet potatoes were used in Brazil.</li>
+                    <li> Japan used rice to make sake.</li>
+                    <li> China used wheat to make samshu.</li>
+                    <li> Other Asian cultures used sorghum.</li>
+                    <li> Russians used rye to make quass
+                        or kvass.</li>
+                    <li> Egyptians used barley and may have cultivated it strictly for brewing as it made poor bread.
+                    </li>
+                </ol>
+            </div>
+            <img class="topcontent"
+                src="data:image/jpeg;base64,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">
+            <p class="quote">"Beer is proof that God loves us and wants us to be happy."</p>
+            <h3 class="quote">-benjamin franklin</h3>
+
+
+            <div class="table">
+                <h1>Five brewers produced 89.4% of domestic product</h1>
+                <table align="center">
+                    <col width="300">
+                    <col width="200">
+                    <thead>
+                        <tr>
+                            <th id="head">Brewery</th>
+                            <th id="head">% of Beer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Anheuser-Busch (A-B)</td>
+                            <td>44.5%</td>
+                        </tr>
+                        <tr>
+                            <td>Miller Brewing</td>
+                            <td>21.8%</td>
+                        </tr>
+                        <tr>
+                            <td>Coors</td>
+                            <td>10.4%</td>
+                        </tr>
+                        <tr>
+                            <td>Stroh</td>
+                            <td>7.4%</td>
+                        </tr>
+                        <tr>
+                            <td>G. Heileman</td>
+                            <td>5.3%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="survey">
+                <h3>How did you hear about us?</h3>
+                <textarea id="textarea"></textarea>
+            </div>
+            <div id="stein">
+                <img id="beermug" src="https://cdn.pixabay.com/photo/2016/09/14/11/36/beer-1669275__340.png">
+            </div>
+
+            <h2 class="green-text">Please take this short survey</h2>
+
+            <label for="email"><strong class="email">Email:</strong></label>
+            <input type="text" id="email" name="email">
+
+            <div class="footer">
+                <p class="choice"><strong>Favorite Beer Variety</strong></p>
+                <select name="gender">
+                    <option value="male">Home Brew</option>
+                    <option value="female">Brewery</option>
+                    <option value="male">Store Bought</option>
+                    <option value="male">Piss Water</option>
+                    <option value="male">Prefer Not To Say</option>
+                </select>
+                <input class="submit" type="submit" value="Submit">
+                <img class="picture"
+                    src="https://media3.giphy.com/media/24652QfeZzNIPzoH36/200w.webp?cid=790b76115d1598a2516a365a4548bf3c&rid=200w.webp">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
