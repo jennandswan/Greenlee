@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>My Registration Form</title>
+        </head>
+        <body>
+<table>
+        <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+        
+        <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        
+        <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        
+        <label for="pw_confirm">Password Confirmation:</label>
+            <input type="password" id="pw_confirm" name="password_confirmation">
+        
+        <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+    
+    <p>Select your gender:</p>
+        <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+   
+        <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+    
+        <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+
+    <p>A short description about yourself:</p>
+        <textarea name="description"></textarea>
+
+        <label for="favorite_language">Favorite Language</label>
+             <select name="favorite_language">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">Javascript</option>
+            </select>
+             
+            <input type="submit" value="Submit">
+        </body>
+    </html>
