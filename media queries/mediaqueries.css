@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 900px;
+    height: 1800px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.desk .yellow {
+    background-color: #ffff9a;
+    padding: 10px;
+}
+
+.desk h1 {
+    background-color: #b3b3b3;
+}
+
+.desk p {
+    background-color: #cccccc;
+    padding: 3px;
+
+}
+
+.phone {
+    width: 275px;
+    border: 2px solid darkgrey;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.tablet {
+    width: 400px;
+    border: 2px solid darkgrey;
+    margin-bottom: 10px;
+
+}
+
+.desktop {
+    width: 600px;
+    border: 2px solid darkgrey;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.desk {
+    margin-bottom: 30px;
+
+}
+
+.navbtn {
+    padding: 20px;
+    margin: 5px;
+    display: inline;
+}
+
+.button {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 240px;
+    height: 230px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        background-color: #c59f9f;
+    }
+
+    .navbtn .button {
+        background-color: yellow;
+        display: block;
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) {
+    .container {
+        background-color: #e9e953;
+    }
+
+    .navbtn .button {
+        background-color: blue;
+        display: inline;
+    }
+
+
+}
+
+@media only screen and (min-width: 1023px) {
+    .container {
+        background-color: #e9e953;
+    }
+
+    .navbtn .button {
+        background-color: blue;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        background-color: #79b462;
+    }
+
+    .navbtn .button {
+        background-color: red;
+        display: inline-block;
+    }
+
+
+}
